@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.caixa-full {
+    width: 100vw;
+    height: 100vw;
+}
+
+header {
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-bottom: 90px;
+}
+
+.link-header {
+    text-decoration: none;
+    margin-right: 27px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #17233D;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    border-radius: 8px;
+    background: #6FBF44;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+img {
+    display: inline-block;
+    width: 495px;
+    height: 400px;
+    margin-left: 118px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 62px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    color: #161A49;
+    width: 582px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #4B505A;
+    width: 493px;
+    line-height: 33px;
+    margin: 35px 0;
+}
+
+.link-final {
+    font-weight: 500;
+    font-size: 18px;
+    color: #6FBF44;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+
+    button {
+        width: 91px;
+        height: 31px;
+        margin-left: 218px;
+    }
+
+    img {
+        width: 312px;
+        height: 318px;
+        display: block;
+        margin: 0 40px;
+        position: relative;
+        top: 355px;
+    }
+    
+    h1 {
+        width: 278px;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p {
+        width: 304px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    .link-final {
+        width: 112px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-left: 90px;
+    }
+
+    section {
+        position: relative;
+        bottom: 359px;
+        margin: 10px 40px;
+        display: block;
+    }
+}
+
+.link-header:hover {
+    opacity: 60%;
+}
+
+.link-header:active {
+    opacity: 40%;
+}
+
+button:hover {
+    opacity: 60%;
+}
+
+button:active {
+    opacity: 40%;
+}
+
+.link-final:hover {
+    opacity: 80%;
+}
+
+.link-final:active {
+    opacity: 40%;
+}
